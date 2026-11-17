@@ -164,7 +164,7 @@ int main(int argc, char *argv[]) {
     int running= 0;
     int failed = 0;
 
-    for(int i = 1; i < frames; i++){
+    for(int i = 1; i < frames+1; i++){
         double t = (frames > 1) ? (double)(i-1) / (frames -1) : 0.0;
         double scale = start * pow(end / start , t);
 

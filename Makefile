@@ -18,4 +18,4 @@ $(EXECUTABLE): $(OBJECTS)
 	$(CC) -MM $< > $*.d
 
 clean:
-	rm -rf $(OBJECTS) $(EXECUTABLE) *.d mandel[0-9]*.jpg mandel.mpg mandelmovie
+	rm -rf $(OBJECTS) $(EXECUTABLE) *.d mandel[0-9]*.jpg mandelmovie

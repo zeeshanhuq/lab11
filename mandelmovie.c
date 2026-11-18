@@ -2,6 +2,7 @@
 * filename: mandelmovie.c
 * author: Zeeshan Huq
 * date: 11/10/26
+* compile: gcc -o mandelmovie mandelmovie.c -lm
 */
 
 #include <stdio.h>

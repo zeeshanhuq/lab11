@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Mandelmovie Labs
-=======
 # Mandelmovie Labs
 
 Overview  
@@ -83,4 +80,3 @@ Processes	Runtime (s)
 
 Discussion  
 There were improvements in runtime from increasing the number of processes up to a certain point. Past 10 processes, the runtime actually started to increase. This shows that an increase in the number of processes does not always result in better performance.
->>>>>>> cf38e9c (updated documentation)
